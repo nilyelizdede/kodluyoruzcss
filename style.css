@@ -1,0 +1,45 @@
+body {
+    background-color:white;
+}
+nav{padding-top: 10px;
+    text-align: right;
+    padding-right: 5px;
+
+}
+form.search {
+    display: flex;
+}
+form.search input {
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 4px ;
+    font-size: 16px;
+    font-weight: 500;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-left: 150px;
+    padding: 0 15px;
+    flex: 1;
+    outline: 0;
+}
+form.search button {
+    height: 25px;
+    padding: 0 30px;
+    background:blue;
+    color: #fff;
+    border-radius:4px;
+    margin-top: 0px;
+    margin-left:0px;
+    margin-right: 150px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+h1{
+    margin-top: 250px;
+    color: #393a3b;
+    font-size: 100px;
+    text-align: center;
+}
